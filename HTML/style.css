@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #00b4db, #0083b0);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 4rem;
+  text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+
+table {
+   width: 200px;
+   height: 300px;
+   text-align: center;
+   border: 5px solid green;
+}
+
+th, td {
+   border: 1px solid red;
+}
+
+td:hover {
+   background-color: lightcoral;
+   color: white;
+}

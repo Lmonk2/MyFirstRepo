@@ -1,13 +1,33 @@
 // ============================
 // PART 1: Math Problems
 // ============================
+
 const n1 = 10;
 const n2 = 15;
 const n3 = 20;
 const n4 = 5;
 const n5 = 25;
-<form>
-  <label>Name:</label>
+const total = n1 + n2 + n3 + n4 + n5;
+const isSum50 = total === 50;
+console.log("Is the sum equal to 50?", isSum50); // Output: true
+const oddCount = 
+(n1 % 2 !== 0) +
+(n2 % 2 !== 0) +
+(n3 % 2 !== 0) +
+(n4 % 2 !== 0); 
+console.log("Count of odd numbers:", oddCount); // Output: 3
+const hasTwoOdds = oddCount >= 2;
+console.log("Are there at least two odd numbers?", hasTwoOdds); // Output: true
+const allUnder25 =
+n1 <= 25 &&
+n2 <= 25 &&
+n3 <= 25 &&
+n4 <= 25;
+console.log("Are all numbers less than or equal to 25?", allUnder25); // Output: true
+const allUnique =
+<forms>
+</forms>
+<label>Name:</label>
   <input type="text">
 </form>
 

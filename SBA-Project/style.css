@@ -1,0 +1,25 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+nav a {
+  border: 1px solid black;
+  padding: 10px;
+  text-decoration: none;
+}
+@keyframes move {
+  from { margin-left: 0; }
+  to { margin-left: 20px; }
+}
+
+h1 {
+  animation: move 2s infinite;
+}
+
